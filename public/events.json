@@ -1,0 +1,45 @@
+[
+    {
+        "id" : 1,
+      "name": "Elegant Venue Selection",
+      "image": "https://i.ibb.co/rGPsD2m/top-5-outdoor-wedding-venues-in-gurgaon-for-you-to-get-married-in.jpg",
+      "price": 2500,
+      "description": "Our Elegant Venue Selection service helps you find the perfect backdrop for your dream wedding. We understand that choosing the right venue is crucial to creating lasting memories. Our experienced team will work closely with you to discover a location that matches your vision and budget. Whether you're envisioning a luxurious ballroom, a picturesque outdoor garden, or a charming rustic barn, we have a wide range of options to suit your needs. We'll handle all the details, from site visits to negotiating contracts, ensuring a stress-free experience. With our expertise, you can rest assured that your wedding venue will be nothing short of extraordinary."
+    },
+    {
+        "id" : 2,
+      "name": "Custom Floral Design",
+      "image": "https://i.ibb.co/Z22s22d/ceremony-541-4-174781-166334516452590.jpg",
+      "price": 1200,
+      "description": "Transform your wedding into a floral wonderland with our Custom Floral Design service. Our talented florists will craft exquisite arrangements that capture the essence of your love story. From stunning bridal bouquets to captivating centerpieces, we'll bring your floral vision to life. We source the finest blooms and carefully select color palettes that harmonize with your wedding theme. Our attention to detail ensures that every petal is perfectly placed. Create an unforgettable atmosphere with our bespoke floral designs that will leave your guests in awe."
+    },
+    {
+        "id" : 3,
+      "name": "Catering Excellence",
+      "image": "https://i.ibb.co/ZB0PfZD/1.jpg",
+      "price": 3500,
+      "description": "Experience culinary excellence with our Catering Excellence service. Your wedding feast deserves nothing but the finest, and our team of expert chefs is here to deliver. We'll curate a menu that tantalizes the taste buds of your guests, combining flavors and ingredients that reflect your preferences. Whether you desire a gourmet five-course meal or a buffet of international delights, we cater to your unique culinary desires. Our dedicated staff will ensure seamless service, leaving you and your guests with a delectable and memorable experience."
+    },
+    {
+        "id" : 4,
+      "name": "Live Entertainment Spectacular",
+      "image": "https://i.ibb.co/L5Ch1PN/skyknights1.jpg",
+      "price": 1800,
+      "description": "Ignite your celebration with our Live Entertainment Spectacular. Create lasting memories as our talented musicians, bands, or DJs fill the air with music and energy. From heartwarming melodies during the ceremony to high-energy beats on the dance floor, we provide a diverse musical experience that caters to your preferences. Our performers engage with your guests, ensuring everyone has a fantastic time. Elevate your wedding day with live entertainment that transforms moments into magical memories."
+    },
+    {
+        "id" : 5,
+      "name": "Wedding Photography Mastery",
+      "image": "https://i.ibb.co/9gtBYLR/happy-couple-16-09-23.webp",
+      "price": 2200,
+      "description": "Preserve the magic of your special day with our Wedding Photography Mastery. Our team of skilled photographers specializes in capturing the beauty, emotion, and essence of your wedding. We believe in storytelling through images, documenting each precious moment as it unfolds. From intimate portraits to candid shots of your guests, we'll create a visual narrative that tells your love story. Relive the laughter, tears, and joy for years to come with stunning photographs that encapsulate the spirit of your wedding day."
+    },
+    {
+        "id" : 6,
+      "name": "Event Planning Wizardry",
+      "image": "https://i.ibb.co/X2C2D6y/7a3a46-aefbe996884c4984b3de8cf9e16c497c-mv2-d-3600-2400-s-4-2.jpg",
+      "price": 2800,
+      "description": "Turn your wedding dreams into reality with our Event Planning Wizardry service. Our experienced event planners are your partners in creating a flawless and memorable celebration. We handle every detail, from designing your wedding timeline to coordinating with vendors. With our meticulous planning and attention to your unique vision, you can relax and enjoy your day to the fullest. Let us take care of the logistics and ensure that your wedding is a magical experience that surpasses your expectations."
+    }
+  ]
+  

@@ -1,0 +1,35 @@
+
+    [
+        {
+            "name": "Blenheim Palace",
+            "location": "Oxfordshire",
+            "image_url": "https://i.ibb.co/TTbRXcL/Blenheim-Palace.jpg"
+        },
+        {
+            "name": "Warwick Castle",
+            "location": "Warwick",
+            "image_url": "https://i.ibb.co/kQf2CKt/Aeiral.jpg"
+        },
+        {
+            "name": "Highclere Castle",
+            "location": "Hampshire",
+            "image_url": "https://i.ibb.co/yfnNmZd/Highclere-Castle-Getty-Images-674160934-cf517a6.jpg"
+        },
+        {
+            "name": "The Savoy",
+            "location": "London",
+            "image_url": "https://i.ibb.co/D9JJyFH/Homepage.jpg"
+        },
+        {
+            "name": "Chatsworth House",
+            "location": "Derbyshire",
+            "image_url": "https://i.ibb.co/mTqqMm9/Chatsworth-1024x683.jpg"
+        },
+        {
+            "name": "The Lost Orangery",
+            "location": "Wiltshire",
+            "image_url": "https://i.ibb.co/kDKbt8c/The-Lost-Orangery-90.jpg"
+        }
+    ]
+    
+
