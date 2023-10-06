@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
-import Service from './Service.jsx'
+import Service from './Service.jsx';
 const Services = () => {
     const [services,setServices] = useState([])
     useEffect(()=>{
@@ -11,7 +11,7 @@ const Services = () => {
     },[])
     
     return (
-        <div className='py-6'>
+        <div className='py-6 font-poppins'>
             <h1 className="text-black text-4xl text-center font-semibold">Our <span className='text-blue-600'>Services</span></h1>
 
             <div className='py-10 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 lg:mx-0 mx-2'>

@@ -4,6 +4,7 @@ import {Outlet} from 'react-router-dom'
 import Services from '../Services/Services';
 import Venus from '../venus/venus';
 import Advantage from '../Advantage/Advantage';
+import Footer from '../Footer/Footer';
 const Home = () => {
     return (
         <div >
@@ -13,6 +14,7 @@ const Home = () => {
        <Venus></Venus>
        <Advantage></Advantage>
        </div>
+       <Footer></Footer>
         </div>
     );
 }
