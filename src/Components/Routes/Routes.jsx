@@ -9,6 +9,7 @@ import ServiceDetails from "../Pages/ServiceDetails/ServiceDetails";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
 import About from "../Pages/About/About";
 import Profile from "../Pages/Profile/profile";
+import Planner from "../Pages/Planner/Planner.JSX";
 const Router = createBrowserRouter([
     {
         path: '/',
@@ -36,6 +37,10 @@ const Router = createBrowserRouter([
     {
         path: 'profile',
         element: <PrivateRoute><Profile></Profile></PrivateRoute>
+    },{
+        path:'/planner',
+        loader: ()=> fetch('/planner.json'),
+        element:<PrivateRoute><Planner></Planner></PrivateRoute>
     }
 ])
 

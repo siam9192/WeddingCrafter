@@ -21,7 +21,7 @@ const BannerNavbar = () => {
         </div>
         <ul className={`flex  text-xl md:text-white md:space-x-2 md:block  md:static fixed md:bg-transparent bg-white md:flex-row flex-col md:px-0 md:py-0 px-20 text-black py-5 h-full md:spacey-0 space-y-3 top-14 md:duration-0 duration-500 ${!toggle ? 'left-[200%]' : 'right-2'}`}>
 <Link to='/'>Home</Link>
-<Link to='/favourites'>Favourites</Link>
+<Link to='/planner'>Planner</Link>
 <Link to='/profile'>Profile</Link>
 {
 !user ? <>
@@ -32,7 +32,7 @@ const BannerNavbar = () => {
 <>
 
 <div className='md:inline-flex  items-center gap-2'>
-<h1 className="text-2xl font-semibold">{user.displayName}</h1>
+<h1 className="text-xl font-semibold">{user.displayName}</h1>
 {
     user.photoURL ? <img src={user.photoURL} alt="" className='w-10 h-10 rounded-full'/> : <div><FaUserCircle className='text-2xl'></FaUserCircle></div>
 }

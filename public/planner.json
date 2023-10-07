@@ -1,0 +1,129 @@
+[
+    {
+       "venues":[{
+         "name": "Windsor Castle Wedding Venue",
+         "description": "Experience royalty on your special day at the magnificent Windsor Castle. Exchange vows in historic grandeur surrounded by stunning architecture and lush gardens. A fairy tale wedding awaits you.",
+         "location": "Windsor, Berkshire",
+         "cost": 15000,
+         "image_url": "https://i.ibb.co/sjfqp4Q/Windsor-suite.jpg"
+       },
+       {
+         "name": "Cotswold Manor House",
+         "description": "Nestled in the picturesque Cotswolds, this charming manor house offers an idyllic setting for an intimate wedding. Enjoy the tranquility of the countryside while celebrating your love.",
+         "location": "Cotswolds, Gloucestershire",
+         "cost": 8500,
+         "image_url": "https://i.ibb.co/kyPkJ90/Franics-York-Haddington-Wick-is-a-Fine-Jacobean-Manor-House-Set-in-the-South-Cotswolds-2.jpg"
+       },
+       {
+         "name": "London Skyline Rooftop",
+         "description": "Say 'I do' with the London skyline as your backdrop. This rooftop venue offers breathtaking views of the city, creating a glamorous and memorable setting for your wedding.",
+         "location": "London",
+         "cost": 12000,
+         "image_url": "https://i.ibb.co/PFHhFbQ/DRM-Culpeper-Rooftop02-HR-DRM-6852-1050x700.jpg"
+       },
+       {
+         "name": "Lake District Lodge Wedding",
+         "description": "Embrace nature's beauty with a lakeside lodge wedding in the Lake District. Surrounded by serene waters and lush greenery, it's a rustic yet romantic choice.",
+         "location": "Lake District, Cumbria",
+         "cost": 9800,
+         "image_url": "https://i.ibb.co/BrL1MsL/Weddings-in-The-Lake-District-What-is-the-Best-Time-to-Get-Married-in-the-Lake-District-Blog-Image.jpg"
+       },
+       {
+         "name": "Historic York Minster",
+         "description": "Make history part of your love story by getting married at the iconic York Minster. Its stunning Gothic architecture and rich heritage provide a unique and majestic atmosphere.",
+         "location": "York",
+         "cost": null,
+         "image_url": "https://i.ibb.co/wRPq4sV/article-england-york-minster.jpg"
+       },
+       {
+         "name": "Cornish Coastal Retreat",
+         "description": "Exchange vows with the sound of waves as your soundtrack at this Cornish coastal retreat. The rugged cliffs and sandy beaches create a natural wonderland for your wedding.",
+         "location": "Cornwall",
+         "cost": 11500,
+         "image_url": "https://i.ibb.co/Mpp5jmZ/cornish-coastal-retreat-port-issac-cornwall-w280720-r8.webp"
+       }
+   ],
+   "catering": [
+    {
+      "name": "Elegant Gourmet Dining",
+      "description": "Indulge your guests in a culinary journey of gourmet delights. Our chefs craft exquisite dishes from around the world, tailored to your tastes. Experience luxury dining at its finest.",
+      "cost": 7500,
+      "image_url": "https://i.ibb.co/YR4nv0M/burtownhouse-antonijanekicphotography24-w1920.webp"
+    },
+    {
+      "name": "Rustic Farm-to-Table Feast",
+      "description": "Celebrate your love with a rustic feast showcasing fresh, locally sourced ingredients. Our farm-to-table menu offers a taste of the countryside with a touch of elegance.",
+      "cost": 6000,
+      "image_url": "https://i.ibb.co/wdPp7qn/ed640c31-ee20-4d99-ac02-df9686e54833.webp"
+    },
+    {
+      "name": "Asian Fusion Delights",
+      "description": "Embark on a flavorful adventure with our Asian fusion cuisine. From sushi to stir-fry, we bring the best of Asia to your wedding, creating a memorable dining experience.",
+      "cost": 8500,
+      "image_url": "https://i.ibb.co/qyKkMwG/essentialc-800x532px.jpg"
+    },
+    {
+      "name": "Mediterranean Mezze Extravaganza",
+      "description": "Transport your guests to the Mediterranean with our Mezze extravaganza. Savor a variety of delectable dishes, including hummus, kebabs, and baklava.",
+      "cost": 6800,
+      "image_url": "https://i.ibb.co/KN8Kw9f/1-8-Ko2-TUPvxz-YHK47n-JJQN5g.jpg"
+    },
+    {
+      "name": "Vegetarian and Vegan Delights",
+      "description": "Cater to all dietary preferences with our exquisite vegetarian and vegan menu. Our chefs create plant-based dishes that are both flavorful and nourishing for your guests.",
+      "cost": 7200,
+      "image_url": "https://i.ibb.co/9VV2dd8/images.jpg"
+    },
+    {
+      "name": "Classic American BBQ Buffet",
+      "description": "Go for a classic American BBQ buffet, perfect for a laid-back outdoor wedding. Enjoy mouthwatering ribs, pulled pork, and all the fixings for a barbecue feast.",
+      "cost": 5800,
+      "image_url": "https://i.ibb.co/6sPG778/catering-slideshow-04.jpg"
+    }
+  ],
+  "decoration": [
+    
+        {
+          "name": "Rustic Elegance",
+          "description": "Create a warm and charming atmosphere with rustic decor. Wooden accents, mason jar centerpieces, and fairy lights add a cozy touch to your wedding.",
+          "cost": 2500,
+          "image_url": "https://i.ibb.co/B2DQ6d1/spring-amond-wedding-inspiration-ideas-ft.jpg"
+        },
+        {
+          "name": "Classic Romance",
+          "description": "Turn your wedding into a timeless love story with classic decor. Elegant floral arrangements, crystal chandeliers, and candlelit ambiance set the stage for romance.",
+          "cost": 3500,
+          "image_url": "https://i.ibb.co/YyY9mwj/page.webp"
+        },
+        {
+          "name": "Boho Chic Bliss",
+          "description": "Embrace bohemian style with colorful and eclectic decor. Macramé, wildflower bouquets, and low seating create a relaxed and free-spirited vibe.",
+          "cost": 2800,
+          "image_url": "https://i.ibb.co/yhcfhw5/decor-zen2-15-118100.jpg"
+        },
+        {
+          "name": "Glamorous Affair",
+          "description": "Add a touch of luxury to your wedding with glamorous decor. Glittering sequin tablecloths, opulent centerpieces, and velvet accents create a lavish setting.",
+          "cost": 4500,
+          "image_url": "https://i.ibb.co/c1KRk3n/18b39993-49ca-4f55-9cdf-9bdbe285e955.webp"
+        },
+        {
+          "name": "Vintage Charm",
+          "description": "Transport your guests to a bygone era with vintage decor. Antique furniture, lace table runners, and old-world charm evoke nostalgia and elegance.",
+          "cost": 3200,
+          "image_url": "https://i.ibb.co/nkQdy7s/f100e27841fb4af6aab49bece5335deb-1024x683.jpg"
+        },
+        {
+          "name": "Tropical Paradise",
+          "description": "Bring the beach to your wedding with tropical decor. Palm leaves, vibrant florals, and tiki torches create a breezy and exotic ambiance.",
+          "cost": 2800,
+          "image_url": "https://i.ibb.co/PccTwpt/16.jpg"
+        }
+      
+      
+  ]
+  
+   
+   }
+     ]
+     

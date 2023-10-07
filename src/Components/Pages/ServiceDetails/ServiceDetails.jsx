@@ -3,6 +3,7 @@ import {useLoaderData, useParams} from 'react-router-dom'
 import Navbar from '../Navbar/Navbar';
 import { useState } from 'react';
 import { useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 import Footer from '../Footer/Footer';
 import Service from '../Services/Service';
 const ServiceDetails = () => {
@@ -23,6 +24,9 @@ window.scrollTo(0,0)
 
     return (
         <>
+        <Helmet>
+            <title>Service||Details</title>
+        </Helmet>
         <div className='max-w-7xl mx-auto font-poppins min-h-[100vh] lg:px-0 px-2'>
 <Navbar></Navbar>
 <div className='space-y-2 grid lg:grid-cols-2 gap-5  md:py-20 py-10'>

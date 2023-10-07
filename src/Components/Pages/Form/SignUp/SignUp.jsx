@@ -7,6 +7,7 @@ import { GlobalAuthContext } from '../../../Provider/AuthProvider';
 import { GoogleAuthProvider, signInWithPopup, updateProfile } from 'firebase/auth';
 import auth from '../../../../Firebase/Firebase.config';
 import Swal from 'sweetalert2';
+import { Helmet } from 'react-helmet';
 const SignUp = () => {
     const [alert,setAlert] = useState('');
     const {createUser} = useContext(GlobalAuthContext);
@@ -63,6 +64,9 @@ createUser(email,password)
     
     return (
         <>
+        <Helmet>
+            <title>WeddingCrafter || Sign up</title>
+        </Helmet>
         <div className='md:flex justify-center items-center mx-2 mt-2 md:mx-0  font-poppins'>
         <div className='md:w-1/3 w-full py-4  '>
             <form className=' py-3' onSubmit={handleSignUp}>

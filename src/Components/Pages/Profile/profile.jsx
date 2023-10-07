@@ -1,12 +1,15 @@
 import { useContext } from "react";
 import Navbar from "../Navbar/Navbar";
 import { GlobalAuthContext } from "../../Provider/AuthProvider";
-
+import { Helmet } from "react-helmet";
 const Profile = () => {
     const {user} = useContext(GlobalAuthContext);
     
     return (
         <div className=" max-w-7xl mx-auto font-poppins lg:px-0 px-2">
+            <Helmet>
+                <title>WeddingCrafter || Profile</title>
+            </Helmet>
             <Navbar></Navbar>
             <div className="flex justify-center item-center">
 <div >

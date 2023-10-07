@@ -5,6 +5,7 @@ import GoogleLogo from '/google.png'
 import { GlobalAuthContext } from '../../../Provider/AuthProvider';
 import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 import auth from '../../../../Firebase/Firebase.config';
+import { Helmet } from 'react-helmet';
 const Login = () => {
     const {userLogin} = useContext(GlobalAuthContext);
     const [alert,setAlert] = useState('');
@@ -48,6 +49,9 @@ userLogin(email,password)
     return (
 
         <div>
+          <Helmet>
+            <title>WeddingCrafter || Login</title>
+          </Helmet> 
              <div className='flex justify-center items-center mt-2 md:mx-0 mx-2 font-poppins'>
         <div className=' lg:w-1/3 md:w-1/2 w-full py-4 px-6 mt-16'>
         <form className=' py-4  ' onSubmit={handleLogin}>
@@ -64,10 +68,11 @@ userLogin(email,password)
 
 </div>
 <div><button type="submit" className='w-full py-3  font-medium bg-black text-white'>Login</button></div>
-<p className="tex-black text-center py-3 font-medium">Don't have an account ? <Link className='text-[#F9A51A]' to='/sign-up'>Sign up</Link></p>
 {
-  alert && <p className="text-red-700">{alert}</p>
+  alert && <p className="text-red-700 my-2">{alert}</p>
 }
+<p className="tex-black text-center py-3 font-medium">Don't have an account ? <Link className='text-[#F9A51A]' to='/sign-up'>Sign up</Link></p>
+
 <p className="text-center text-black font-medium text-2xl py-2">Log in with</p>
 <div className=' flex justify-center' onClick={googleLogin}>
   <div className='w-8 h-8 rounded-full bg-gray-200'>
