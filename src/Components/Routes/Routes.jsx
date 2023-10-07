@@ -10,12 +10,12 @@ import PrivateRoute from "../PrivateRoute/PrivateRoute";
 import About from "../Pages/About/About";
 import Profile from "../Pages/Profile/profile";
 import Planner from "../Pages/Planner/Planner.JSX";
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 const Router = createBrowserRouter([
     {
         path: '/',
-        element:<Home></Home>
-        
-        
+        element:<Home></Home>,
+        errorElement:<ErrorPage></ErrorPage>
     },
     {
         path:'/sign-up',

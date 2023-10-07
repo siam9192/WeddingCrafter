@@ -7,6 +7,7 @@ import {RxCross2} from 'react-icons/rx'
 import { useContext } from 'react';
 import { GlobalAuthContext } from '../../Provider/AuthProvider';
 import { signOut } from 'firebase/auth';
+import { NavLink } from 'react-router-dom';
 import auth from '../../../Firebase/Firebase.config';
 const Navbar = () => {
     const {user} = useContext(GlobalAuthContext)
@@ -21,9 +22,21 @@ const Navbar = () => {
         </div>
         <ul className={`flex md:justify-between text-xl text-black md:space-x-2 md:block  md:static fixed md:bg-transparent bg-white md:flex-row flex-col md:px-0 md:py-0 px-20  py-5 h-full md:spacey-0 space-y-3 top-14 md:duration-0 duration-500 ${!toggle ? 'left-[200%]' : 'right-2'}`}>
       
-<Link to='/'>Home</Link>
-<Link to='/planner'>Planner</Link>
-<Link to='/profile'>Profile</Link>
+        <NavLink to="/"
+  className={({isActive}) =>
+    isActive ? "text-blue-600" : "text-black" 
+  }
+>Home</NavLink>
+<NavLink to="/planner"
+  className={({isActive}) =>
+    isActive ? "text-blue-600" : "text-black" 
+  }
+>Planner</NavLink>
+<NavLink to="/profile"
+  className={({isActive}) =>
+    isActive ? "text-blue-600" : "text-black" 
+  }
+>Profile</NavLink>
 {
 !user ? <>
 <Link to = '/login'>Login</Link>

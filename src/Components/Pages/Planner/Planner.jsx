@@ -4,16 +4,19 @@ import WedVenues from "./wedVenues";
 import Catering from "./catering";
 import Decoration from "./decoration";
 import { Helmet } from "react-helmet";
+import Footer from "../Footer/Footer";
 
 const Planner = () => {
     const plannerData = useLoaderData();
     const {venues,catering,decoration} = plannerData[0];
     console.log(decoration)
     return (
+        <>
+     <Helmet>
+        <title>WeddingCrafter || Planner</title>
+    </Helmet>
         <div className="max-w-7xl mx-auto font-poppins md:px-0 px-2">
-            <Helmet>
-                <title>WeddingCrafter || Planner</title>
-            </Helmet>
+
             <Navbar></Navbar>
             <div>
                 <h1 className="text-3xl font-semibold text-black my-2">Wedding venues </h1>
@@ -30,6 +33,8 @@ const Planner = () => {
 
             
         </div>
+        <Footer></Footer>
+        </>
     );
 }
 

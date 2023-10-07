@@ -53,7 +53,7 @@ userLogin(email,password)
             <title>WeddingCrafter || Login</title>
           </Helmet> 
              <div className='flex justify-center items-center mt-2 md:mx-0 mx-2 font-poppins'>
-        <div className=' lg:w-1/3 md:w-1/2 w-full py-4 px-6 mt-16'>
+        <div className=' lg:w-1/3 md:w-1/2 w-full py-4 px-6 md:mt-16 mt-6'>
         <form className=' py-4  ' onSubmit={handleLogin}>
             <h1 className='text-3xl my-4 text-black  text-center font-semibold'>Hey! Welcome back again</h1>
 <h1 className='text-2xl text-black  text-center font-semibold'>Login</h1>
