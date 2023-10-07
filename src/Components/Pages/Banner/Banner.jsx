@@ -9,8 +9,8 @@ const Banner = () => {
    <div className='space-y-4 my-10'> <h1 className="lg:text-7xl md:text-5xl text-4xl text-white">
    Unlocking Love Stories: Your Dream Wedding Awaits!
     </h1>
-    <p className='text-white font-poppins'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim fugit, consequuntur neque omnis necessitatibus modi assumenda tempore saepe recusandae possimus.</p>
-    <button className='px-5 text-2xl  py-3  text-white bg-blue-600 hover:bg-black'>Explore Now</button>
+    <p className='text-white font-poppins'>we understand that your wedding day is one of the most significant moments in your life. It's a celebration of love, commitment, and the beginning of a beautiful journey together. With that in mind, we believe that every wedding should be a reflection of your unique love story, dreams, and personal style</p>
+    <button className='px-5 text-xl  py-5  text-white bg-blue-600 hover:bg-black hover:border-[2px] border-white'>Explore Now</button>
     </div>
 </div>
 <div className='flex-1'></div>

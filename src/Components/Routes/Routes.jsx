@@ -6,6 +6,7 @@ import Home from "../Pages/Home/Home";
 import SignUp from "../Pages/Form/SignUp/SignUp";
 import Login from "../Pages/Form/Login/Login";
 import ServiceDetails from "../Pages/ServiceDetails/ServiceDetails";
+import PrivateRoute from "../PrivateRoute/PrivateRoute";
 const Router = createBrowserRouter([
     {
         path: '/',
@@ -24,7 +25,7 @@ const Router = createBrowserRouter([
     {
         path: '/service/details/:id',
         loader: ()=> fetch('/events.json'),
-        element: <ServiceDetails></ServiceDetails>
+        element: <PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>
     }
 ])
 
