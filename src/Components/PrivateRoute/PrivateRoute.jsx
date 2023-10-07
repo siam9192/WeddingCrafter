@@ -5,7 +5,8 @@ import { Navigate,useLocation } from 'react-router-dom';
 
 const PrivateRoute = ({children}) => {
     const {user,loading} = useContext(GlobalAuthContext);
-    const {pathName} = useLocation();
+    const {pathname} = useLocation();
+    
     if(loading){
         return <div className='min-h-[90vh] flex justify-center items-center '>
 <span class="loading loading-spinner text-7xl text-primary loading-lg"></span>
@@ -15,7 +16,7 @@ const PrivateRoute = ({children}) => {
         return children;
     }
    else{
-  return  <Navigate to = '/login' state={pathName}></Navigate>
+  return  <Navigate to = '/login' state={pathname} replace></Navigate>
    }
 }
 

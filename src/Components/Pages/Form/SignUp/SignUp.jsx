@@ -6,6 +6,7 @@ import GoogleLogo from '/google.png'
 import { GlobalAuthContext } from '../../../Provider/AuthProvider';
 import { GoogleAuthProvider, signInWithPopup, updateProfile } from 'firebase/auth';
 import auth from '../../../../Firebase/Firebase.config';
+import Swal from 'sweetalert2';
 const SignUp = () => {
     const [alert,setAlert] = useState('');
     const {createUser} = useContext(GlobalAuthContext);
@@ -39,8 +40,18 @@ createUser(email,password)
         displayName:name,
         photoURL: photoUrl
     })
+    Swal.fire(
+        'Good job!',
+        'Registration successful!',
+        'success'
+      )
+      e.target.reset()
 })
-.catch(err=> console.log(err))
+.catch(err=> {
+    if(err.code == 'auth/email-already-in-use'){
+    setAlert('You have already a account')
+    }
+})
 
     }
 
@@ -52,10 +63,10 @@ createUser(email,password)
     
     return (
         <>
-        <div className='flex justify-center items-center mt-2 md:mx-0 mx-2 font-poppins'>
-        <div className='md:w-1/3 w-full py-4 px-6 mt-14'>
-            <form className='border-[2px] border-gray-300 px-4' onSubmit={handleSignUp}>
-<h1 className='text-3xl text-black  text-center font-medium'>Sign up</h1>
+        <div className='md:flex justify-center items-center mx-2 mt-2 md:mx-0  font-poppins'>
+        <div className='md:w-1/3 w-full py-4  '>
+            <form className=' py-3' onSubmit={handleSignUp}>
+<h1 className='text-3xl text-black  text-center font-semibold'>Sign up</h1>
 <div className='py-5 space-y-8'>
 <div className=''>
 <h3 className='text-black font-medium pb-2 '>You name :</h3>
@@ -83,10 +94,12 @@ createUser(email,password)
 
             </form>
             <div className='space-y-3'>
-          
-          <h1 className="text-center font-semibold text-xl text-black my-2">Sign up with</h1>
-          <div className='w-full py-2 border-gray-600 border-[2px] flex justify-between md:pr-10 pl-2 hover:bg-gray-300' onClick={googleSignUp}><img src={GoogleLogo} alt="" className='w-6' />
-          <h3 className="text-black font-semibold text-xl">Sig up with google</h3></div>
+                <h1 className='text-center text-2xl text-black font-semibold my-2'>Sign up with</h1>
+            <div className=' flex justify-center' onClick={googleSignUp}>
+  <div className='w-8 h-8 rounded-full bg-gray-200'>
+  <img src={GoogleLogo} alt="" className='' />
+  </div>
+  </div>
       </div>
         </div>
        

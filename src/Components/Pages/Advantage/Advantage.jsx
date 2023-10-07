@@ -19,7 +19,7 @@ const Advantage = () => {
 {
 advantage.map((ele,index) => {
 
-return <div className='p-7 space-y-3 bg-black hover:scale-[0.9] duration-200 hover:bg-blue-700' data-aos = 'fade-left'>
+return <div className='p-7 space-y-3 bg-black hover:scale-[0.9] rounded-3xl duration-200 hover:bg-blue-700' data-aos = 'fade-left'>
     <h1 className="text-white text-3xl">
         {ele.title}
     </h1>
