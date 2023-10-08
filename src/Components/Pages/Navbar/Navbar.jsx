@@ -37,6 +37,11 @@ const Navbar = () => {
     isActive ? "text-blue-600" : "text-black" 
   }
 >Profile</NavLink>
+<NavLink to="/blogs"
+  className={({isActive}) =>
+    isActive ? "text-blue-600" : "text-black" 
+  }
+>Blogs</NavLink>
 {
 !user ? <>
 <Link to = '/login'>Login</Link>

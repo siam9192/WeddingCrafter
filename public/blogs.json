@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "title": "10 Tips for Stress-Free Wedding Planning",
+        "description": "Planning a wedding can be both exciting and overwhelming. To help you navigate the process with ease, we've compiled a comprehensive list of 10 valuable tips for a stress-free wedding planning journey. From setting a realistic budget to creating a detailed timeline, we've got you covered. We'll also share advice on selecting the perfect vendors, handling unexpected challenges, and ensuring your wedding day runs smoothly.",
+        "date": "2023-01-15",
+        "image": "https://i.ibb.co/RcVjRJg/7ad9fa3da5c8319a1047176ccd0ab47d.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Choosing the Perfect Wedding Venue",
+        "description": "Selecting the ideal wedding venue is one of the most crucial decisions you'll make when planning your big day. It sets the tone for your wedding and impacts everything from your guest list to your decor choices. In this blog series, we'll guide you through the process of choosing the perfect wedding venue that aligns with your vision, budget, and overall theme.",
+        "date": "2023-02-20",
+        "image": "https://i.ibb.co/TTbRXcL/Blenheim-Palace.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Designing Your Dream Wedding Decor",
+        "description": "Your wedding decor is the visual representation of your love story, and it plays a pivotal role in creating a magical atmosphere on your big day. In this blog series, we'll take you on a journey of designing your dream wedding decor, from choosing color palettes to selecting the perfect centerpieces and everything in between.",
+        "date": "2023-03-10",
+        "image": "https://i.ibb.co/nkQdy7s/f100e27841fb4af6aab49bece5335deb-1024x683.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Crafting a Memorable Wedding Ceremony",
+        "description": "Your wedding ceremony is the heart of your celebration, where you exchange vows and declare your love for each other in front of your loved ones. Crafting a memorable ceremony is a beautiful journey that begins with thoughtful planning and meaningful choices. In this blog series, we'll guide you through the process of designing a ceremony that reflects your unique love story.",
+        "date": "2023-04-05",
+        "image": "https://i.ibb.co/6shfjdY/Memorable-Wedding-Moments-by-Runway-Events1-1024x683.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Choosing the Perfect Wedding Dress",
+        "description": "The search for the perfect wedding dress is an exciting and memorable part of your wedding planning journey. Your dress is a symbol of your personal style and the vision you have for your wedding day look. In this blog series, we'll provide you with expert guidance on choosing the perfect wedding dress that makes you feel confident and radiant.",
+        "date": "2023-05-15",
+        "image": "https://i.ibb.co/ckXx9nt/a5240139-6d53-4f35-b47b-2cab2723639b.webp"
+    },
+    {
+        "id": 6,
+        "title": "Creating a Delicious Wedding Menu",
+        "description": "One of the most anticipated aspects of any wedding celebration is the food. Creating a delicious wedding menu that satisfies your guests' taste buds and aligns with your overall theme is a key element of successful wedding planning. In this blog series, we'll explore the world of wedding catering, menu planning, and culinary creativity.",
+        "date": "2023-06-12",
+        "image": "https://i.ibb.co/r0bPcDB/aa-15.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Capturing Precious Moments: Wedding Photography Tips",
+        "description": "Your wedding day is a collection of precious moments that you'll want to cherish forever, and the key to preserving these memories is exceptional photography. In this blog series, we'll guide you through the world of wedding photography, helping you choose the right photographer, plan your wedding day photos, and ensure you have stunning visuals to treasure.",
+        "date": "2023-07-20",
+        "image": "https://i.ibb.co/4j685rX/602300-ffe856aef54c4d7fa7bbf4202d6d9d32-mv2.webp"
+    },
+    {
+        "id": 8,
+        "title": "Nailing the Wedding Day Schedule",
+        "description": "A well-structured wedding day timeline is essential for a smooth and stress-free celebration. In this blog series, we'll help you nail down the perfect wedding day schedule that ensures everything runs seamlessly, from the ceremony to the reception and beyond.",
+        "date": "2023-08-05",
+        "image": "https://i.ibb.co/Bjbh0R2/240-F-93247951-Yu9-Dps-Ff-Wf-YVLMSok-Dx-NWZNw-JM3m-KPjj.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Wedding Entertainment Ideas to Wow Your Guests",
+        "description": "The entertainment at your wedding reception can elevate the entire celebration and leave a lasting impression on your guests. In this blog series, we'll explore a world of wedding entertainment ideas that are sure to wow and delight everyone in attendance.",
+        "date": "2023-09-10",
+        "image": "https://i.ibb.co/tPvCZcC/weddings-bg.jpg"
+    },
+    {
+        "id": 10,
+        "title": "The Art of Wedding Invitations and Stationery",
+        "description": "Wedding invitations and stationery are your guests' first glimpse into your wedding theme and style. They set the tone for your celebration and provide essential information. In this blog series, we'll explore the art of creating exquisite wedding invitations and stationery that leave a lasting impression.",
+        "date": "2023-10-08",
+        "image": "https://i.ibb.co/XCYS8tF/0797ab600e413fc81cf0b7bdb9ff8f9b.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Managing Wedding Budget: Tips for Every Couple",
+        "description": "Your wedding budget is a crucial aspect of the planning process, and managing it effectively is key to avoiding stress and financial strain. In this blog series, we'll provide you with practical tips and strategies for managing your wedding budget without compromising on your dream celebration.",
+        "date": "2023-11-15",
+        "image": "https://i.ibb.co/D1f0XmH/0-Capture-PNG.webp"
+    },
+    {
+        "id": 12,
+        "title": "Post-Wedding To-Dos: What to Do After the Big Day",
+        "description": "After the wedding celebration comes to an end, there are essential post-wedding tasks and considerations to address. In this blog series, we'll guide you through the post-wedding to-dos, helping you transition smoothly into married life and tying up loose ends from your big day.",
+        "date": "2023-12-10",
+        "image": "https://i.ibb.co/WWXgHNc/Maldonado-809.webp"
+    }
+]

@@ -11,6 +11,8 @@ import About from "../Pages/About/About";
 import Profile from "../Pages/Profile/profile";
 import Planner from "../Pages/Planner/Planner.JSX";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
+import PrivateRoute2 from "../PrivateRoute/PrivateRoute2";
+import Blogs from "../Pages/Blogs/Blogs";
 const Router = createBrowserRouter([
     {
         path: '/',
@@ -19,11 +21,11 @@ const Router = createBrowserRouter([
     },
     {
         path:'/sign-up',
-        element:<SignUp></SignUp>
+        element:<PrivateRoute2></PrivateRoute2>
     },
     {
         path:'/login',
-        element: <Login></Login>
+        element: <PrivateRoute2><Login></Login></PrivateRoute2>
     },
     {
         path: '/service/details/:id',
@@ -33,6 +35,10 @@ const Router = createBrowserRouter([
     {
         path: '/about',
         element: <About></About>
+    },
+    {
+path: '/blogs',
+element: <Blogs></Blogs>
     },
     {
         path: 'profile',
