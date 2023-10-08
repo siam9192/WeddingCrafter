@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import './Banner.css'
 import BannerNavbar from './BannerNavbar';
 const Banner = () => {
+ 
     return (
         <div className="banner min-h-[90vh]">
 <div className='max-w-7xl mx-auto lg:px-0 px-2'>

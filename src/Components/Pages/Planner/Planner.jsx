@@ -19,6 +19,7 @@ const Planner = () => {
 
             <Navbar></Navbar>
             <div className="pb-20">
+            <div>
                 <h1 className="text-3xl font-semibold text-black my-2">Wedding venues </h1>
                 <WedVenues venues={venues}></WedVenues>
             </div>
@@ -31,7 +32,7 @@ const Planner = () => {
             <Catering catering={catering}></Catering>
             </div>
 
-            
+            </div>
         </div>
         <Footer></Footer>
         </>

@@ -73,7 +73,7 @@ userLogin(email,password)
 }
 <p className="tex-black text-center py-3 font-medium">Don't have an account ? <Link className='text-[#F9A51A]' to='/sign-up'>Sign up</Link></p>
 
-<p className="text-center text-black font-medium text-2xl py-2">Log in with</p>
+<p className="text-center text-black font-medium text-2xl py-2">Continue with</p>
 <div className=' flex justify-center' onClick={googleLogin}>
   <div className='w-8 h-8 rounded-full bg-gray-200'>
   <img src={GoogleLogo} alt="" className='' />

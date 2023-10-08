@@ -32,7 +32,7 @@
          "name": "Historic York Minster",
          "description": "Make history part of your love story by getting married at the iconic York Minster. Its stunning Gothic architecture and rich heritage provide a unique and majestic atmosphere.",
          "location": "York",
-         "cost": null,
+         "cost": 7000,
          "image_url": "https://i.ibb.co/wRPq4sV/article-england-york-minster.jpg"
        },
        {

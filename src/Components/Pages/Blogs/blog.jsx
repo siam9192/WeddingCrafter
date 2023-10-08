@@ -3,6 +3,7 @@ import { useState } from 'react';
 import {AiOutlineArrowRight,AiOutlineArrowUp} from 'react-icons/ai'
 const Blog = ({blog}) => {
     const [toggle,setToggle] = useState(false);
+   
     return (
         <div>
             <div>

@@ -1,5 +1,5 @@
 .banner{
-    background: url('/banner.jpg'),linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.6));
+    background: url('/banner1.jpg'),linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.6));
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
