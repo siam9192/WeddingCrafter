@@ -7,8 +7,6 @@ import SignUp from "../Pages/Form/SignUp/SignUp";
 import Login from "../Pages/Form/Login/Login";
 import ServiceDetails from "../Pages/ServiceDetails/ServiceDetails";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
-import About from "../Pages/About/About";
-import Profile from "../Pages/Profile/profile";
 import Planner from "../Pages/Planner/Planner.JSX";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import PrivateRoute2 from "../PrivateRoute/PrivateRoute2";
@@ -21,7 +19,7 @@ const Router = createBrowserRouter([
     },
     {
         path:'/sign-up',
-        element:<PrivateRoute2></PrivateRoute2>
+        element:<PrivateRoute2><SignUp></SignUp></PrivateRoute2>
     },
     {
         path:'/login',
@@ -32,18 +30,12 @@ const Router = createBrowserRouter([
         loader: ()=> fetch('/events.json'),
         element: <PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>
     },
-    {
-        path: '/about',
-        element: <About></About>
-    },
+    
     {
 path: '/blogs',
-element: <Blogs></Blogs>
+element: <PrivateRoute><Blogs></Blogs></PrivateRoute>
     },
     {
-        path: 'profile',
-        element: <PrivateRoute><Profile></Profile></PrivateRoute>
-    },{
         path:'/planner',
         loader: ()=> fetch('/planner.json'),
         element:<PrivateRoute><Planner></Planner></PrivateRoute>

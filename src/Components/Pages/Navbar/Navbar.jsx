@@ -20,7 +20,7 @@ const Navbar = () => {
         <div>
             <h1 className='md:text-4xl text-3xl text-black font-semibold  font-poppins'>WeddingCrafter</h1>
         </div>
-        <ul className={`flex md:justify-between text-xl text-black md:space-x-2 md:block  md:static fixed md:bg-transparent bg-white md:flex-row flex-col md:px-0 md:py-0 px-20  py-5 h-full md:spacey-0 space-y-3 top-14 md:duration-0 duration-500 ${!toggle ? 'left-[200%]' : 'right-2'}`}>
+        <ul className={`flex md:justify-between z-10 text-xl text-black md:space-x-2 md:block  md:static fixed md:bg-transparent bg-white md:flex-row flex-col md:px-0 md:py-0 px-20  py-5 h-full md:spacey-0 space-y-3 top-14 md:duration-0 duration-500 ${!toggle ? 'left-[200%]' : 'right-2'}`}>
       
         <NavLink to="/"
   className={({isActive}) =>
@@ -32,11 +32,7 @@ const Navbar = () => {
     isActive ? "text-blue-600" : "text-black" 
   }
 >Planner</NavLink>
-<NavLink to="/profile"
-  className={({isActive}) =>
-    isActive ? "text-blue-600" : "text-black" 
-  }
->Profile</NavLink>
+
 <NavLink to="/blogs"
   className={({isActive}) =>
     isActive ? "text-blue-600" : "text-black" 

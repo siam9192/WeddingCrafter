@@ -38,7 +38,7 @@ window.scrollTo(0,0)
     <div className='border-b-[2px] border-gray-700'><h1 className=' text-black  text-xl'><span className='text-xl font-semibold  text-black'>Description: </span>{service.description}</h1></div>
     <div className='border-b-[2px]  border-gray-700'><h1 className=' text-black  text-xl'><span className='text-xl text-black font-semibold '>Cost: </span>${service.price}</h1></div>
     <div className='border-b-[2px]  border-gray-700'><h1 className=' text-black text-xl'><span className='text-xl text-black font-semibold '>Total Cost: </span>${service.price + ((service.price/100)*10)} (+10% VAT included)</h1></div>
-    <button className='bg-black w-full py-2 text-white text-center'>Add to favourite</button>
+
 </div>
 </div>
 <div className='py-8'>

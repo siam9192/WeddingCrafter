@@ -60,7 +60,7 @@ userLogin(email,password)
 <div className='py-5 space-y-9'>
 
 <div className=''>
-<input type="text" placeholder='UserName or Email' className='py-2 border-gray-700 px-1 border-[2px] w-full placeholder:text-black placeholder:font-semibold text-black' name='email' required/>
+<input type="email" placeholder='Email' className='py-2 border-gray-700 px-1 border-[2px] w-full placeholder:text-black placeholder:font-semibold text-black' name='email' required/>
 </div>
 <div className=''>
 <input type="text" name='password' placeholder='Password' className=' py-2 border-gray-700 px-1 border-[2px] w-full placeholder:text-black placeholder:font-semibold text-black' required/>

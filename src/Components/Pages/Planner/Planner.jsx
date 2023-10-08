@@ -18,7 +18,7 @@ const Planner = () => {
         <div className="max-w-7xl mx-auto font-poppins md:px-0 px-2">
 
             <Navbar></Navbar>
-            <div>
+            <div className="pb-20">
                 <h1 className="text-3xl font-semibold text-black my-2">Wedding venues </h1>
                 <WedVenues venues={venues}></WedVenues>
             </div>

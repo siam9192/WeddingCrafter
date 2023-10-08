@@ -14,7 +14,7 @@ const Service = ({service}) => {
         <div className='p-5 border-[2px] border-gray-200 ' data-aos = 'fade-right'>
 <img src={service.image} className='md:h-60 w-full rounded-lg'  alt="" />
 <div className='py-2'>
-    <p className="text-blue-600 text-xl font-medium">{service.price}$</p>
+    <p className="text-blue-600 text-xl font-medium">${service.price}</p>
     <h2 className="text-black text-2xl font-medium">{service.name}</h2>
     {
         service.description.length > 140 ? <p className=''>{service.description.slice(0,140)}...</p>

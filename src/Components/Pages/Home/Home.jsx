@@ -6,6 +6,7 @@ import Venus from '../venus/venus';
 import Advantage from '../Advantage/Advantage';
 import Footer from '../Footer/Footer';
 import { Helmet } from 'react-helmet';
+import Questions from '../Questions/Questions';
 const Home = () => {
     return (
         <div >
@@ -17,6 +18,7 @@ const Home = () => {
        <Services></Services>
        <Venus></Venus>
        <Advantage></Advantage>
+       <Questions></Questions>
        </div>
        <Footer></Footer>
         </div>

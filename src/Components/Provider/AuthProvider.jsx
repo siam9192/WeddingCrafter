@@ -18,6 +18,9 @@ return createUserWithEmailAndPassword(auth,email,password)
         setLoading(true)
         return signInWithEmailAndPassword(auth,email,password)
     }
+    const handleUser = (currentUser)=>{
+        setUser(currentUser)
+    }
     useEffect(()=>{
         const inspector = onAuthStateChanged(auth,presentUser =>{
             setUser(presentUser)
@@ -29,7 +32,7 @@ return createUserWithEmailAndPassword(auth,email,password)
     },[])
     return (
         <div>
-            <GlobalAuthContext.Provider value={{user,loading,createUser,userLogin}} >
+            <GlobalAuthContext.Provider value={{user,handleUser,loading,createUser,userLogin}} >
             {children}
             </GlobalAuthContext.Provider>
         </div>

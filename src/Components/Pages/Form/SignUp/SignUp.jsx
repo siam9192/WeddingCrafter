@@ -10,7 +10,7 @@ import Swal from 'sweetalert2';
 import { Helmet } from 'react-helmet';
 const SignUp = () => {
     const [alert,setAlert] = useState('');
-    const {createUser} = useContext(GlobalAuthContext);
+    const {createUser,handleUser} = useContext(GlobalAuthContext);
     
     const handleSignUp = (e) =>{
 e.preventDefault();
@@ -25,15 +25,15 @@ if(!photoUrl){
     photoUrl = null;
 }
 if(password.length < 6){
-    setAlert('Password must be 6 characters');
+    setAlert('Password must be at least 6 characters');
     return;
 }
 else if(!/[A-z]/.test(password)){
-setAlert('Password must have one Capital letter');
+setAlert('Password must have minimum one Capital letter');
 return;
 }
 else if(!/[!@#$%^&*()_+{}\[\]:;<>,.?~\\]/.test(password)){
-    setAlert('Password must have one special characters')
+    setAlert('Password must have minimum one special characters')
 }
 createUser(email,password)
 .then (res =>{
@@ -41,16 +41,18 @@ createUser(email,password)
         displayName:name,
         photoURL: photoUrl
     })
+    handleUser(null)
     Swal.fire(
         'Good job!',
         'Registration successful!',
         'success'
       )
-      e.target.reset()
+      e.target.reset();
+      
 })
 .catch(err=> {
     if(err.code == 'auth/email-already-in-use'){
-    setAlert('You have already a account')
+    setAlert('You  already  have an account')
     }
 })
 
@@ -74,19 +76,19 @@ createUser(email,password)
 <div className='py-5 space-y-8'>
 <div className=''>
 <h3 className='text-black font-medium pb-2 '>You name :</h3>
-<input type="text" placeholder='Harry' className=' py-2 border-gray-700 px-1 border-[2px] w-full  placeholder:font-semibold  text-black' name='name' required/>
+<input type="text" placeholder='Jack' className=' py-2 border-gray-700 px-1 border-[2px] w-full   text-black' name='name' required/>
 </div>
 <div className=''>
 <h3 className='text-black font-medium pb-2 '>Photo URL (optional) :</h3>
-<input type="text" placeholder='URL' className='py-2 border-gray-700 px-1 border-[2px] w-full  placeholder:font-semibold text-black' name='photoUrl'/>
+<input type="text" placeholder='URL' className='py-2 border-gray-700 px-1 border-[2px] w-full   text-black' name='photoUrl'/>
 </div>
 <div className=''>
 <h3 className='text-black font-medium pb-2 '>Email:</h3>
-<input type="text" placeholder='jack@gmail.com' className='py-2 border-gray-700 px-1 border-[2px] w-full  placeholder:font-semibold text-black' name='email' required/>
+<input type="email" placeholder='jack@gmail.com' className='py-2 border-gray-700 px-1 border-[2px] w-full   text-black' name='email' required/>
 </div>
 <div className=''>
 <h3 className='text-black font-medium pb-2 '>Password :</h3>
-<input type="text" name='password' placeholder='Password' className=' py-2 border-gray-700 px-1 border-[2px] w-full placeholder:font-semibold text-black' required/>
+<input type="text" name='password' placeholder='Password' className=' py-2 border-gray-700 px-1 border-[2px] w-full  text-black' required/>
 </div>
 
 </div>
