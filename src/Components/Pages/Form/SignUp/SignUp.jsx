@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useContext } from 'react';
 import GoogleLogo from '/google.png'
 import { GlobalAuthContext } from '../../../Provider/AuthProvider';
-import { GoogleAuthProvider, signInWithPopup, updateProfile } from 'firebase/auth';
+import { GoogleAuthProvider, signInWithPopup, signOut, updateProfile } from 'firebase/auth';
 import auth from '../../../../Firebase/Firebase.config';
 import Swal from 'sweetalert2';
 import { Helmet } from 'react-helmet';
@@ -43,6 +43,7 @@ createUser(email,password)
         photoURL: photoUrl
     })
     handleUser(null)
+    signOut(auth)
     Swal.fire(
         'Good job!',
         'Registration successful!',
