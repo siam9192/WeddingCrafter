@@ -31,7 +31,7 @@ const Navbar = () => {
   className={({isActive}) =>
     isActive ? "text-blue-600" : "text-black" 
   }
->Planner</NavLink>
+>Planners</NavLink>
 
 <NavLink to="/blogs"
   className={({isActive}) =>

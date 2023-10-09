@@ -50,7 +50,7 @@ const BannerNavbar = () => {
   className={({isActive}) =>
     isActive ? "text-blue-600" : "" 
   }
->Planner</NavLink>
+>Planners</NavLink>
 <NavLink to="/blogs"
   className={({isActive}) =>
     isActive ? "text-blue-600" : "" 
