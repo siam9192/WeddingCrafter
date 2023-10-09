@@ -51,7 +51,7 @@ const Navbar = () => {
 {
     user.photoURL ? <img src={user.photoURL} alt="" className='w-10 h-10 rounded-full'/> : <div><FaUserCircle className='text-2xl'></FaUserCircle></div>
 }
-<button className='px-4 py-2 md:my-0 my-2 bg-blue-600 text-white rounded-md' onClick={handleLogOut}>Log out</button>
+<button className='px-4 py-2 md:my-0 my-2  bg-blue-600 text-white rounded-md' onClick={handleLogOut}>Log out</button>
 </div>
 </>
 
