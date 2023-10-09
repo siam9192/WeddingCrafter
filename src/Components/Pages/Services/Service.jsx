@@ -11,18 +11,19 @@ const Service = ({service}) => {
     Aos.init()
  })
     return (
-        <div className='p-5 border-[2px] border-gray-200 ' data-aos = 'fade-right'>
-<img src={service.image} className='md:h-60 w-full rounded-lg'  alt="" />
-<div className='py-2'>
+        <div className=' border-[2px] flex flex-col border-gray-200 md:h-[500px] relative' data-aos = 'fade-right'>
+<img src={service.image} className='md:h-60 w-full'  alt="" />
+<div className='py-2 p-5 '>
     <p className="text-blue-600 text-xl font-medium">${service.price}</p>
     <h2 className="text-black text-2xl font-medium">{service.name}</h2>
+    <div className="flex-grow">
     {
         service.description.length > 140 ? <p className=''>{service.description.slice(0,140)}...</p>
-
         :
-        <p className=''>{service.description}</p>
+        <p className='my-2'>{service.description}</p>
     }
-    <div className='text-center pt-5'><Link to = {`/service/details/${service.id}`}><button className='px-4 py-2 text-white bg-black'>Show details</button></Link></div>
+    </div>
+    <div className='py-2 md:absolute bottom-0 flex justify-center items-start'><Link to = {`/service/details/${service.id}`} className=''><button className='px-4  py-2 w- text-white md:ml-[104px]  bg-black'>Show details</button></Link></div>
 </div>
         </div>
     );

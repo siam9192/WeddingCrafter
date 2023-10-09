@@ -39,7 +39,7 @@ D: ReferenceError
 Answer : A
 explanation :The questions answer is A. Because the value of food variable is ['🍕', '🍫', '🥑', '🍔'] And i noticed that the  next lines code  of food variable doesn't create any effect on food variable.
 
-4.4. Write the correct answer from the following options and give an explanation (2-5 lines).
+4. Write the correct answer from the following options and give an explanation (2-5 lines).
 function sayHi(name) {
   return `Hi there, ${name}`;
 }

@@ -5,10 +5,13 @@ import GoogleLogo from '/google.png'
 import { GlobalAuthContext } from '../../../Provider/AuthProvider';
 import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 import auth from '../../../../Firebase/Firebase.config';
+import {AiFillEye} from 'react-icons/ai'
+import {AiFillEyeInvisible} from 'react-icons/ai'
 import { Helmet } from 'react-helmet';
 const Login = () => {
     const {userLogin} = useContext(GlobalAuthContext);
     const [alert,setAlert] = useState('');
+    const [toggle,setToggle] = useState(false);
     const {state} = useLocation();
     const navigate = useNavigate();
     const handleLogin = (e) =>{
@@ -62,8 +65,13 @@ userLogin(email,password)
 <div className=''>
 <input type="email" placeholder='Email' className='py-2 border-gray-700 px-1 border-[2px] w-full placeholder:text-black placeholder:font-semibold text-black' name='email' required/>
 </div>
-<div className=''>
-<input type="text" name='password' placeholder='Password' className=' py-2 border-gray-700 px-1 border-[2px] w-full placeholder:text-black placeholder:font-semibold text-black' required/>
+<div className='relative'>
+<input type={toggle ? 'text' : 'password'} name='password' placeholder='Password' className=' py-2 border-gray-700 pl-1 pr-10 border-[2px] w-full placeholder:text-black placeholder:font-semibold text-black' required/>
+<div className="text-black text-2xl absolute right-2 top-3" onClick={()=> setToggle(!toggle)}>
+  {
+    toggle ? <AiFillEye></AiFillEye> : <AiFillEyeInvisible></AiFillEyeInvisible>
+  }
+</div>
 </div>
 
 </div>

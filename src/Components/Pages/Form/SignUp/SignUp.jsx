@@ -100,7 +100,7 @@ createUser(email,password)
 
             </form>
             <div className='space-y-3'>
-                <h1 className='text-center text-2xl text-black font-semibold my-2'>Continue with</h1>
+                <h1 className='text-center text-2xl text-black font-medium my-2'>Continue with</h1>
             <div className=' flex justify-center' onClick={googleSignUp}>
   <div className='w-8 h-8 rounded-full bg-gray-200'>
   <img src={GoogleLogo} alt="" className='' />

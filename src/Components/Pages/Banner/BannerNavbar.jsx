@@ -18,7 +18,7 @@ const BannerNavbar = () => {
     return (
         <div className='md:py-8 py-4 flex justify-between md:bg-transparent   md:static  top-0 font-poppins '>
         <div>
-            <h1 className='md:text-4xl text-3xl text-white font-semibold  font-poppins'>WeddingCrafters</h1>
+            <h1 className='md:text-4xl text-3xl text-white font-semibold  font-poppins'>WeddingCrafter</h1>
         </div>
         <ul className={`flex  text-xl md:text-white md:space-x-2 md:block  md:static fixed md:bg-transparent bg-white md:flex-row flex-col md:px-0 md:py-0 px-20 text-black py-5 h-full md:spacey-0 space-y-3 top-14 md:duration-0 duration-500 ${!toggle ? 'left-[200%]' : 'right-2'}`}>
 

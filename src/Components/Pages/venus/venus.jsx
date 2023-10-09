@@ -12,7 +12,7 @@ const Venus = () => {
     console.log(venus)
     return (
         <div>
-            <h1 className='text-3xl font-medium text-center text-black'>Popular Wedding Venues</h1>
+            <h1 className='text-3xl font-semibold text-center font-poppins text-black'>Popular Wedding Venues</h1>
             <div className='py-5'>
 <Marquee>
 {

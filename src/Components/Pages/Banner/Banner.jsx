@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
 import './Banner.css'
 import BannerNavbar from './BannerNavbar';
+import { useContext } from 'react';
+import { GlobalAuthContext } from '../../Provider/AuthProvider';
 const Banner = () => {
- 
+ const {user} = useContext(GlobalAuthContext)
     return (
         <div className="banner min-h-[90vh]">
 <div className='max-w-7xl mx-auto lg:px-0 px-2'>
@@ -12,9 +14,15 @@ const Banner = () => {
    Unlocking Love Stories: Your Dream Wedding Awaits!
     </h1>
     <p className='text-white font-poppins'>we understand that your wedding day is one of the most significant moments in your life. It's a celebration of love, commitment, and the beginning of a beautiful journey together. With that in mind, we believe that every wedding should be a reflection of your unique love story, dreams, and personal style</p>
-   <Link to='/planner'>
+{
+    user ?    <Link to='/planner'>
    <button className='px-5 text-xl  md:py-5 py-3  text-white my-3 bg-blue-600 hover:bg-black hover:border-[2px] border-white'>Explore Planner</button>
    </Link>
+   :
+   <Link to='/login'>
+   <button className='px-20 text-xl  md:py-5 py-2 my-10   text-white  bg-blue-600 hover:bg-black hover:border-[2px] border-white'>Login</button>
+   </Link>
+}
     </div>
 </div>
 <div className='flex-1'></div>
