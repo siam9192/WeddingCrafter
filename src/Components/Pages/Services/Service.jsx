@@ -23,7 +23,7 @@ const Service = ({service}) => {
         <p className='my-2'>{service.description}</p>
     }
     </div>
-    <div className='py-2 md:absolute bottom-0 flex justify-center items-start'><Link to = {`/service/details/${service.id}`} className=''><button className='px-4  py-2 w- text-white md:ml-[104px]  bg-black'>Show details</button></Link></div>
+    <div className='py-2 md:absolute bottom-0 flex justify-center items-start'><Link to = {`/service/details/${service.id}`} className=''><button className='px-4  py-2  text-white md:ml-[104px]  bg-black'>Show details</button></Link></div>
 </div>
         </div>
     );
