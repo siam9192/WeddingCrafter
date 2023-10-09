@@ -5,6 +5,7 @@ import auth from '../../Firebase/Firebase.config';
 import { useContext } from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 export const GlobalAuthContext = createContext();
 const AuthProvider = ({children}) => {
@@ -23,8 +24,9 @@ return createUserWithEmailAndPassword(auth,email,password)
     }
     useEffect(()=>{
         const inspector = onAuthStateChanged(auth,presentUser =>{
+            console.log(presentUser)
             setUser(presentUser)
-            setLoading(false)
+            setLoading(false);
         })
         return () => {
             inspector()

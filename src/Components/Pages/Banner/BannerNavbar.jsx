@@ -16,7 +16,7 @@ const BannerNavbar = () => {
         signOut(auth);
     }
     return (
-        <div className='md:py-8 py-4 flex justify-between md:bg-transparent   md:static  top-0 font-poppins '>
+        <div className='md:py-8 py-4 flex justify-between items-center md:bg-transparent   md:static  top-0 font-poppins '>
         <div>
             <h1 className='md:text-4xl text-3xl text-white font-semibold  font-poppins'>WeddingCrafter</h1>
         </div>

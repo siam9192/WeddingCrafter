@@ -33,7 +33,8 @@ setAlert('Password must have minimum one Capital letter');
 return;
 }
 else if(!/[!@#$%^&*()_+{}\[\]:;<>,.?~\\]/.test(password)){
-    setAlert('Password must have minimum one special characters')
+    setAlert('Password must have minimum one special characters');
+    return;
 }
 createUser(email,password)
 .then (res =>{
