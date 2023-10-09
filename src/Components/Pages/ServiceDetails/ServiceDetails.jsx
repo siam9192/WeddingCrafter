@@ -36,8 +36,8 @@ window.scrollTo(0,0)
 <div className='space-y-2'>
 <div className='border-b-[2px] border-gray-700'><h1 className=' text-black  text-xl'><span className='text-xl font-semibold  text-black'>Service: </span>{service.name}</h1></div>
     <div className='border-b-[2px] border-gray-700'><h1 className=' text-black  text-xl'><span className='text-xl font-semibold  text-black'>Description: </span>{service.description}</h1></div>
-    <div className='border-b-[2px]  border-gray-700'><h1 className=' text-black  text-xl'><span className='text-xl text-black font-semibold '>Cost: </span>${service.price}</h1></div>
-    <div className='border-b-[2px]  border-gray-700'><h1 className=' text-black text-xl'><span className='text-xl text-black font-semibold '>Total Cost: </span>${service.price + ((service.price/100)*10)} (+10% VAT included)</h1></div>
+    <div className='border-b-[2px]  border-gray-700'><h1 className=' text-black  text-xl'><span className='text-xl text-black font-semibold '>Cost: </span>Start from ${service.price}</h1></div>
+    <div className='border-b-[2px]  border-gray-700'><h1 className=' text-black text-xl'><span className='text-xl text-black font-semibold '>Total Cost: </span> Cost + 10% (+10% VAT included)</h1></div>
 
 </div>
 </div>

@@ -11,12 +11,12 @@ const Service = ({service}) => {
     Aos.init()
  })
     return (
-        <div className=' border-[2px] flex flex-col border-gray-200 md:h-[500px] relative' data-aos = 'fade-right'>
+        <div className=' border-[2px]  z-0 border-gray-200 md:h-[500px] relative ' data-aos = 'fade-right'>
 <img src={service.image} className='md:h-60 w-full'  alt="" />
 <div className='py-2 p-5 '>
-    <p className="text-blue-600 text-xl font-medium">${service.price}</p>
+    <p className="text-blue-600 text-xl font-medium">Start from ${service.price}</p>
     <h2 className="text-black text-2xl font-medium">{service.name}</h2>
-    <div className="flex-grow">
+    <div >
     {
         service.description.length > 140 ? <p className=''>{service.description.slice(0,140)}...</p>
         :

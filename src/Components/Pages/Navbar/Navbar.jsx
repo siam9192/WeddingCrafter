@@ -16,7 +16,7 @@ const Navbar = () => {
         signOut(auth);
     }
     return (
-        <div className='md:py-8 py-4 flex justify-between md:bg-transparent bg-white  md:static sticky top-0'>
+        <div className='md:py-8 py-4 z-10 flex justify-between md:bg-transparent bg-white  md:static sticky top-0'>
         <div>
             <h1 className='md:text-4xl text-3xl text-black font-semibold  font-poppins'>WeddingCrafter</h1>
         </div>
