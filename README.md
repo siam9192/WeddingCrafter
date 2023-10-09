@@ -67,4 +67,6 @@ B: 2
 C: 3
 D: 4
 
-*answer:The questions answer is C.First count value is = 0.By running the forEach loop on the num variable which is an array  it will add 1 every time with count value depending on the array length. After completing for each loop the value of count comes to 3. 
+*answer:The questions answer is C.
+
+*explanation: First count value is = 0.By running the forEach loop on the num variable which is an array  it will add 1 every time with count value depending on the array length. After completing for each loop the value of count comes to 3. 
