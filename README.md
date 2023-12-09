@@ -9,8 +9,10 @@ Project features:
 - After login user can visited website private route pages (service details,Planners,Blogs)+
 - User can see all of services that we provide
 
-Tachnology:
+Technology:
 - React js
 - Firebase
+- Node js
+- Express js
 
 
